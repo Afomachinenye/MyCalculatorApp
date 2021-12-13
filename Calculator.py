@@ -79,22 +79,22 @@ elif select == 5:
                     sqrt(num))
 elif select == 6:
     print(num, "=",
-                   cosine(num))
-elif select == 4:
-    print(number_1, "/", number_2, "=",
-                    divide(number_1, number_2))
-elif select == 4:
-    print(number_1, "/", number_2, "=",
-                    divide(number_1, number_2))
-elif select == 4:
-    print(number_1, "/", number_2, "=",
-                    divide(number_1, number_2))
-elif select == 4:
-    print(number_1, "/", number_2, "=",
-                    divide(number_1, number_2))
-elif select == 4:
-    print(number_1, "/", number_2, "=",
-                    divide(number_1, number_2))
+                   cos_function(num))
+elif select == 7:
+    print(num, "=",
+                   sin_function(num))
+elif select == 8:
+    print(num, "=",
+                   tan_function(num))
+elif select == 9:
+    print(num1, "%", num2, "=",
+                    modulus(num1, num2))
+elif select == 10:
+    print( num, "=",
+                    cube_root(num))
+elif select == 11:
+    print(num, "=",
+                    index(num))
                     
 
 
