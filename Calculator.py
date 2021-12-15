@@ -87,7 +87,8 @@ elif select == 9:
 elif select == 10:
     print("cube_root number =",
                    cube_root(num))
-
+else: 
+    print("invalid operator")
 
                     
 
