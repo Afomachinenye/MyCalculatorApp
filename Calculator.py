@@ -46,18 +46,17 @@ print (''' Please,  select the math operation:
    7 = sine
    8 = tan
    9 = modulus
-   10 = cube root
-   11 = index ''')
+    ''')
 
 #Take input from user
-select = int(input("Select operations from 1,2,3,4,5,6,7,8,9,10:"))
+select = int(input("Select operations from 1,2,3,4,5,6,7,8,9:"))
 
 
 #Enter parameters:
-num1 = int(input("Enter num1"))
-num2 = int(input("Enter num2"))
-num =  int(input("Enter num"))
-index =  int(input("Enter index"))    
+num1 = int(input("Enter num1:"))
+num2 = int(input("Enter num2:"))
+num =  int(input("Enter num:"))
+    
 
 if select == 1:
     print(num1, "+", num2, "=",
@@ -89,12 +88,7 @@ elif select == 8:
 elif select == 9:
     print(num1, "%", num2, "=",
                     modulus(num1, num2))
-elif select == 10:
-    print( num, "=",
-                    cube_root(num))
-elif select == 11:
-    print(num, "=",
-                    index(num))
+
                     
 
 
