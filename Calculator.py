@@ -29,11 +29,7 @@ def modulus(num1, num2):
     return num1 % num2
 
 def cube_root(num):
-    return num ** (1/3)
-
-
-def index(num):
-    return num ** (index)
+    return num**(1/3)
 
 
 print (''' Please,  select the math operation:
@@ -46,10 +42,10 @@ print (''' Please,  select the math operation:
    7 = sine
    8 = tan
    9 = modulus
-    ''')
+   10 = cube_root ''')
 
 #Take input from user
-select = int(input("Select operations from 1,2,3,4,5,6,7,8,9:"))
+select = int(input("Select operations from 1,2,3,4,5,6,7,8,9,10:"))
 
 
 #Enter parameters:
@@ -77,17 +73,21 @@ elif select == 5:
     print("sqrt-num =",
                     sqrt(num))
 elif select == 6:
-    print(num, "=",
+    print("cos_num =",
                    cos_function(num))
 elif select == 7:
-    print(num, "=",
+    print("sin_num =",
                    sin_function(num))
 elif select == 8:
-    print(num, "=",
+    print("tan_num =",
                    tan_function(num))
 elif select == 9:
     print(num1, "%", num2, "=",
                     modulus(num1, num2))
+elif select == 10:
+    print("cube_root number =",
+                   cube_root(num))
+
 
                     
 
